@@ -1,50 +1,41 @@
-// import ProjectModal from "@/components/popups/ProjectModal";
-// import Contact from "@/components/contact/page";
-import { ClientStories } from "@/components/home/ClientStories";
-import HeroSection from "@/components/home/HeroSection";
-import LogoSection from "@/components/home/LogoSection";
-import Projects from "@/components/home/Projects";
-// import TurnkeyProcess from "@/components/home/TurnkeyProcess";
-import { WhatWeDo } from "@/components/home/WhatWeDo";
-import CurateBanner from "@/components/home/CurateBanner";
-import { Experience } from "@/components/home/Experience";
-import ArchitectureGrid from "@/components/home/ArchitectureGrid";
-import HeroVideoSection from "@/components/home/HeroVideoSection";
-import AboutCounter from "@/components/home/AboutCounter";
-import React from "react";
+import { Header } from "@/components/layout/header/Header";
+import { HomePage } from "@/components/sessions/Home";
 
-export default function Home() {
-  return (
-    <div className="flex flex-col gap-y-10 pb-10">
-      {/* <ProjectModal /> */}
-      {/* <HeroSection /> */}
-      <StickyLayout>
-        <HeroVideoSection />
-        <AboutCounter />
-      </StickyLayout>
+async function getStaticData() {
+  console.log("Fetching data for ISR...");
+  try {
+    const res = await fetch("https://backend.bhooshansjr.in/api/home-page");
 
-      <Experience />
-      <WhatWeDo />
-      {/* <TurnkeyProcess />   */}
-      <ArchitectureGrid />
-      {/* <ClientStories /> */}
-    </div>
-  );
+    // Check if the response is OK. If not, throw an error.
+    if (!res.ok) {
+      throw new Error(`Failed to fetch data: ${res.statusText}`);
+    }
+
+    const data = await res.json();
+    return data?.data;
+  } catch (error) {
+    console.error("Error fetching static data:", error);
+    // On error, return null or an empty object so downstream components can handle it.
+    // Next.js will serve the stale data from the cache.
+    return null;
+  }
 }
 
-const StickyLayout = ({ children }) => {
+export default async function Home() {
+  const data = await getStaticData();
+
   return (
-    <div className="relative h-full min-h-fit bg-amber-50  md:-mt-32 lg:-mt-24">
-      {React.Children.map(children, (child, index) => (
-        <div
-          className="sticky top-0 h-full"
-          style={{
-            zIndex: React.Children.count(children) + index,
-          }}
-        >
-          {child}
-        </div>
-      ))}
-    </div>
+    <>
+      <Header />
+      <div className="relative w-screen h-screen overflow-hidden bg-pink">
+        {data ? (
+          <HomePage data={data} />
+        ) : (
+          <div className="flex items-center justify-center w-full h-full text-center text-gray-500">
+            <p>Failed to load data. Please try again later.</p>
+          </div>
+        )}
+      </div>
+    </>
   );
-};
+}

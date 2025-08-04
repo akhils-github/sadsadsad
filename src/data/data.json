@@ -1,0 +1,619 @@
+{
+    "data": {
+        "id": 1,
+        "documentId": "nb8lgt4xm8kf2gjxhf56oesr",
+        "createdAt": "2025-07-28T10:03:47.130Z",
+        "updatedAt": "2025-07-29T08:21:43.066Z",
+        "publishedAt": null,
+        "navbar": {
+            "id": 1,
+            "name": "Bhooshan",
+            "link": null,
+            "logo": {
+                "id": 43,
+                "documentId": "fnumyxex50kknfj177g3zf9u",
+                "name": "logo.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1560,
+                "height": 650,
+                "formats": {
+                    "thumbnail": {
+                        "name": "thumbnail_logo.jpg",
+                        "hash": "thumbnail_logo_589d3be2ea",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "path": null,
+                        "width": 245,
+                        "height": 102,
+                        "size": 35.91,
+                        "sizeInBytes": 35911,
+                        "url": "/logo/logo.jpg",
+                        "isUrlSigned": true
+                    },
+                    "small": {
+                        "name": "small_logo.jpg",
+                        "hash": "small_logo_589d3be2ea",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "path": null,
+                        "width": 500,
+                        "height": 208,
+                        "size": 107.55,
+                        "sizeInBytes": 107547,
+                        "url": "/logo/logo.jpg",
+                        "isUrlSigned": true
+                    },
+                    "medium": {
+                        "name": "medium_logo.jpg",
+                        "hash": "medium_logo_589d3be2ea",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "path": null,
+                        "width": 750,
+                        "height": 313,
+                        "size": 210.22,
+                        "sizeInBytes": 210222,
+                        "url": "/logo/logo.jpg",
+                        "isUrlSigned": true
+                    },
+                    "large": {
+                        "name": "large_logo.jpg",
+                        "hash": "large_logo_589d3be2ea",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "path": null,
+                        "width": 1000,
+                        "height": 417,
+                        "size": 340.87,
+                        "sizeInBytes": 340872,
+                        "url": "/logo/logo.jpg",
+                        "isUrlSigned": true
+                    }
+                },
+                "hash": "logo_589d3be2ea",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 185.8,
+                "url": "/logo/logo.jpg",
+                "previewUrl": null,
+                "provider": "aws-s3",
+                "provider_metadata": null,
+                "createdAt": "2025-07-29T07:29:12.884Z",
+                "updatedAt": "2025-07-29T07:29:12.884Z",
+                "publishedAt": "2025-07-29T07:29:12.884Z",
+                "isUrlSigned": true
+            }
+        },
+        "hero": {
+            "id": 7,
+            "heading": "Home to India’s ",
+            "heading_high_light_word": "Most Loved",
+            "trailing": "Kids Content",
+            "background_video": {
+                "id": 42,
+                "documentId": "ss1goe0g3afqsfn6qhjnce1d",
+                "name": "hero-video.mp4",
+                "alternativeText": null,
+                "caption": null,
+                "width": null,
+                "height": null,
+                "formats": null,
+                "hash": "hero_video_93db5f883f",
+                "ext": ".mp4",
+                "mime": "video/mp4",
+                "size": 3138.83,
+                "url": "/public/static/hero-banner.webp",
+                "previewUrl": null,
+                "provider": "aws-s3",
+                "provider_metadata": null,
+                "createdAt": "2025-07-29T07:25:41.887Z",
+                "updatedAt": "2025-07-29T07:25:41.887Z",
+                "publishedAt": "2025-07-29T07:25:41.887Z",
+                "isUrlSigned": true
+            }
+        },
+        "what_we_do": {
+            "id": 7,
+            "description": "We build joyful, meaningful experiences through storytelling, innovation & imagination - all made for young minds.",
+         
+            "left_character_image": {
+                "id": 45,
+                "documentId": "i8meooe9gcfb60otbuhtk9n0",
+                "name": "meawoo-single.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 74,
+                "height": 85,
+                "formats": null,
+                "hash": "meawoo_single_e578595b8d",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 4.89,
+                "url": "/assets/ip_left.png",
+                "previewUrl": null,
+                "provider": "aws-s3",
+                "provider_metadata": null,
+                "createdAt": "2025-07-29T07:30:46.202Z",
+                "updatedAt": "2025-07-29T07:30:46.202Z",
+                "publishedAt": "2025-07-29T07:30:46.202Z",
+                "isUrlSigned": true
+            },
+            "right_character_image": {
+                "id": 46,
+                "documentId": "wz5ire412wq2sll4ccufrny7",
+                "name": "meawoo-what.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 242,
+                "height": 170,
+                "formats": {
+                    "thumbnail": {
+                        "name": "thumbnail_meawoo-what.png",
+                        "hash": "thumbnail_meawoo_what_79526f9f42",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "path": null,
+                        "width": 222,
+                        "height": 156,
+                        "size": 60.14,
+                        "sizeInBytes": 60143,
+                        "url": "/assets/ludu-what.png",
+                        "isUrlSigned": true
+                    }
+                },
+                "hash": "meawoo_what_79526f9f42",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 15.94,
+                "url": "/assets/ludu-what.png",
+                "previewUrl": null,
+                "provider": "aws-s3",
+                "provider_metadata": null,
+                "createdAt": "2025-07-29T07:31:00.775Z",
+                "updatedAt": "2025-07-29T07:31:00.775Z",
+                "publishedAt": "2025-07-29T07:31:00.775Z",
+                "isUrlSigned": true
+            }
+        },
+        "ip": {
+            "id": 7,
+            "heading": "Our Intellectual Properties",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Louie & Douie",
+                    "decription": "A fun-filled animated series of Louie and Douie where curiosity meets adventure, inspiring young minds through imaginative storytelling and moral values",
+                    "background_colour": "#00b4f0",
+                    "link": {
+                        "id": 11,
+                        "label": "View",
+                        "path": "#"
+                    },
+                    "image": {
+                        "id": 47,
+                        "documentId": "hc0z55i4qbzj021k0g7j5zn9",
+                        "name": "louie-douie.png",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 320,
+                        "height": 320,
+                        "formats": {
+                            "thumbnail": {
+                                "name": "thumbnail_louie-douie.png",
+                                "hash": "thumbnail_louie_douie_bc329d5cee",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "path": null,
+                                "width": 156,
+                                "height": 156,
+                                "size": 21.85,
+                                "sizeInBytes": 21847,
+                                "url": "/assets/ips/louie-douie.png",
+                                "isUrlSigned": true
+                            }
+                        },
+                        "hash": "louie_douie_bc329d5cee",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 18.56,
+                        "url": "/assets/ips/louie-douie.png",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2025-07-29T07:31:50.101Z",
+                        "updatedAt": "2025-07-29T07:31:50.101Z",
+                        "publishedAt": "2025-07-29T07:31:50.101Z",
+                        "isUrlSigned": true
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "Namaste Meawoo",
+                    "decription": "Meawoo is a fun and educational series about a curious kitten who explores everything with help from his loving family—making learning joyful for preschoolers",
+                    "background_colour": "#fdb933",
+                    "link": {
+                        "id": 15,
+                        "label": "View",
+                        "path": "#"
+                    },
+                    "image": {
+                        "id": 48,
+                        "documentId": "zkmttdlhameqbky7cgqovgfu",
+                        "name": "meawoo.png",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 320,
+                        "height": 320,
+                        "formats": {
+                            "thumbnail": {
+                                "name": "thumbnail_meawoo.png",
+                                "hash": "thumbnail_meawoo_5402d6a1f6",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "path": null,
+                                "width": 156,
+                                "height": 156,
+                                "size": 50.69,
+                                "sizeInBytes": 50688,
+                                "url": "/assets/ips/meawoo.png",
+                                "isUrlSigned": true
+                            }
+                        },
+                        "hash": "meawoo_5402d6a1f6",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 34.89,
+                        "url": "/assets/ips/meawoo.png",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2025-07-29T07:33:27.794Z",
+                        "updatedAt": "2025-07-29T07:33:27.794Z",
+                        "publishedAt": "2025-07-29T07:33:27.794Z",
+                        "isUrlSigned": true
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "Jhoom Tara Ra Ra",
+                    "decription": "Jhoom Tara Ra Ra follows four musical ducklings and their coach on a fun-filled journey to become the world’s best band, facing rivals and learning teamwork and dedication. ",
+                    "background_colour": "#f45d1d",
+                    "link": {
+                        "id": 19,
+                        "label": "View",
+                        "path": "#"
+                    },
+                    "image": {
+                        "id": 49,
+                        "documentId": "sc1aovvbd6wipcz9w7g0zhhb",
+                        "name": "jhoom-tara.png",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 320,
+                        "height": 320,
+                        "formats": {
+                            "thumbnail": {
+                                "name": "thumbnail_jhoom-tara.png",
+                                "hash": "thumbnail_jhoom_tara_8ca4ac50ee",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "path": null,
+                                "width": 156,
+                                "height": 156,
+                                "size": 42.36,
+                                "sizeInBytes": 42357,
+                                "url": "/assets/ips/jhoom-tara.png",
+                                "isUrlSigned": true
+                            }
+                        },
+                        "hash": "jhoom_tara_8ca4ac50ee",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "size": 33.17,
+                        "url": "/assets/ips/jhoom-tara.png",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2025-07-29T07:33:43.563Z",
+                        "updatedAt": "2025-07-29T07:33:43.563Z",
+                        "publishedAt": "2025-07-29T07:33:43.563Z",
+                        "isUrlSigned": true
+                    }
+                }
+            ]
+        },
+        "about": {
+            "id": 1,
+            "heading": "About us",
+            "paragraph": "We are on a mission to create India’s answer to global children’s content leaders like Cocomelon, Peppa Pig, Bluey, and Hello Kitty — but with storytelling rooted in Indian values and built for global audiences.",
+            "link": {
+                "id": 12,
+                "label": "Know More",
+                "path": "#"
+            },
+            "left_character_image": {
+                "id": 50,
+                "documentId": "yvhgy6ufmz6b979y4y1jwtp2",
+                "name": "jhoom-about.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 267,
+                "height": 181,
+                "formats": {
+                    "thumbnail": {
+                        "name": "thumbnail_jhoom-about.png",
+                        "hash": "thumbnail_jhoom_about_dfa1222905",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "path": null,
+                        "width": 230,
+                        "height": 156,
+                        "size": 55.03,
+                        "sizeInBytes": 55028,
+                        "url": "/assets/about-1.png",
+                        "isUrlSigned": true
+                    }
+                },
+                "hash": "jhoom_about_dfa1222905",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 18.27,
+                "url": "/assets/about-1.png",
+                "previewUrl": null,
+                "provider": "aws-s3",
+                "provider_metadata": null,
+                "createdAt": "2025-07-29T07:34:42.531Z",
+                "updatedAt": "2025-07-29T07:34:42.531Z",
+                "publishedAt": "2025-07-29T07:34:42.532Z",
+                "isUrlSigned": true
+            },
+            "right_character_image": {
+                "id": 51,
+                "documentId": "gy33l900yca1xbfvaypw2irf",
+                "name": "loui-about.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 193,
+                "height": 220,
+                "formats": {
+                    "thumbnail": {
+                        "name": "thumbnail_loui-about.png",
+                        "hash": "thumbnail_loui_about_6c4565c35d",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "path": null,
+                        "width": 137,
+                        "height": 156,
+                        "size": 22.2,
+                        "sizeInBytes": 22195,
+                        "url": "/assets/about-2.png",
+                        "isUrlSigned": true
+                    }
+                },
+                "hash": "loui_about_6c4565c35d",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 10.25,
+                "url": "/assets/about-2.png",
+                "previewUrl": null,
+                "provider": "aws-s3",
+                "provider_metadata": null,
+                "createdAt": "2025-07-29T07:34:53.651Z",
+                "updatedAt": "2025-07-29T07:34:53.651Z",
+                "publishedAt": "2025-07-29T07:34:53.651Z",
+                "isUrlSigned": true
+            }
+        },
+        "footer": {
+            "id": 7,
+            "copyright": "Copyright © 2024, All Right Reserved Bhooshan Animations India Pvt.Ltd",
+            "social_media": [
+                {
+                    "id": 31,
+                    "name": "facebook",
+                    "link": "https://www.facebook.com/bhooshansjunior",
+                    "icon": {
+                        "id": 54,
+                        "documentId": "yyoedtikx4tlcfi0pe8ex4zj",
+                        "name": "facebook.svg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 28,
+                        "height": 28,
+                        "formats": null,
+                        "hash": "facebook_3ee9cb2857",
+                        "ext": ".svg",
+                        "mime": "image/svg+xml",
+                        "size": 0.48,
+                        "url": "/images/facebook.svg",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2025-07-29T07:36:42.514Z",
+                        "updatedAt": "2025-07-29T07:36:42.514Z",
+                        "publishedAt": "2025-07-29T07:36:42.515Z",
+                        "isUrlSigned": true
+                    }
+                },
+                {
+                    "id": 33,
+                    "name": "instagram",
+                    "link": "https://www.instagram.com/bhooshansjunior/",
+                    "icon": {
+                        "id": 58,
+                        "documentId": "aum36ovq3763iyyawplii9qc",
+                        "name": "instagram.svg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 28,
+                        "height": 28,
+                        "formats": null,
+                        "hash": "instagram_ff47f17b4c",
+                        "ext": ".svg",
+                        "mime": "image/svg+xml",
+                        "size": 0.4,
+                        "url": "/images/instagram.svg",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2025-07-29T07:37:28.065Z",
+                        "updatedAt": "2025-07-29T07:37:28.065Z",
+                        "publishedAt": "2025-07-29T07:37:28.065Z",
+                        "isUrlSigned": true
+                    }
+                },
+                {
+                    "id": 34,
+                    "name": "X",
+                    "link": "https://twitter.com/bhooshansjunior ",
+                    "icon": {
+                        "id": 56,
+                        "documentId": "bwcoyn18et568660rk42b359",
+                        "name": "twitter.svg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 32,
+                        "height": 32,
+                        "formats": null,
+                        "hash": "twitter_d2f5635328",
+                        "ext": ".svg",
+                        "mime": "image/svg+xml",
+                        "size": 0.4,
+                        "url": "/images/twitter.svg",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2025-07-29T07:36:42.616Z",
+                        "updatedAt": "2025-07-29T07:37:39.085Z",
+                        "publishedAt": "2025-07-29T07:36:42.617Z",
+                        "isUrlSigned": true
+                    }
+                },
+                {
+                    "id": 35,
+                    "name": "linkedin",
+                    "link": "https://www.linkedin.com/company/6639879/admin/feed/posts/",
+                    "icon": {
+                        "id": 57,
+                        "documentId": "i495t5rta2x0ksuuobqscblz",
+                        "name": "linkedin.svg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 28,
+                        "height": 28,
+                        "formats": null,
+                        "hash": "youtube_fe552b9a70",
+                        "ext": ".svg",
+                        "mime": "image/svg+xml",
+                        "size": 0.44,
+                        "url": "/images/linkedin.svg",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2025-07-29T07:36:42.666Z",
+                        "updatedAt": "2025-07-29T07:36:42.666Z",
+                        "publishedAt": "2025-07-29T07:36:42.666Z",
+                        "isUrlSigned": true
+                    }
+                },
+                {
+                    "id": 36,
+                    "name": "blogger",
+                    "link": "https://bhooshansjunior.blogspot.com/ ",
+                    "icon": {
+                        "id": 57,
+                        "documentId": "i495t5rta2x0ksuuobqscblz",
+                        "name": "blogger.svg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 28,
+                        "height": 28,
+                        "formats": null,
+                        "hash": "youtube_fe552b9a70",
+                        "ext": ".svg",
+                        "mime": "image/svg+xml",
+                        "size": 0.44,
+                        "url": "/images/blogger.svg",
+                        "previewUrl": null,
+                        "provider": "aws-s3",
+                        "provider_metadata": null,
+                        "createdAt": "2025-07-29T07:36:42.666Z",
+                        "updatedAt": "2025-07-29T07:36:42.666Z",
+                        "publishedAt": "2025-07-29T07:36:42.666Z",
+                        "isUrlSigned": true
+                    }
+                }
+            ],
+            "contacts": [
+                {
+                    "id": 19,
+                    "heading": "Find us",
+                    "description": "8th Floor, Vismaya building, Infopark Phase 1, Kakkanad, Cochin, Kerala - 682030",
+                    "hover_colour": "#CC2F8F"
+                },
+                {
+                    "id": 22,
+                    "heading": "Call us",
+                    "description": "+91 - 9037211620 , 0484 - 3539863",
+                    "hover_colour": "#02ABB7"
+                },
+                {
+                    "id": 23,
+                    "heading": "Email us",
+                    "description": "info@bhooshansjr.in",
+                    "hover_colour": "#7eba2d"
+                }
+            ],
+            "character": {
+                "id": 52,
+                "documentId": "vs54re0lcnirjc96cxu2w9jx",
+                "name": "footer-group.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 495,
+                "height": 357,
+                "formats": {
+                    "thumbnail": {
+                        "name": "thumbnail_footer-group.png",
+                        "hash": "thumbnail_footer_group_c3a9d85a4d",
+                        "ext": ".png",
+                        "mime": "image/png",
+                        "path": null,
+                        "width": 216,
+                        "height": 156,
+                        "size": 58.33,
+                        "sizeInBytes": 58331,
+                        "url": "/images/footer.png",
+                        "isUrlSigned": true
+                    }
+                },
+                "hash": "footer_group_c3a9d85a4d",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 42.83,
+                "url": "/images/footer.png",
+                "previewUrl": null,
+                "provider": "aws-s3",
+                "provider_metadata": null,
+                "createdAt": "2025-07-29T07:36:02.698Z",
+                "updatedAt": "2025-07-29T07:36:02.698Z",
+                "publishedAt": "2025-07-29T07:36:02.698Z",
+                "related": [
+                    {
+                        "__type": "layout.footer",
+                        "id": 7,
+                        "copyright": "Copyright © 2025, All Right Reserved Bhooshan Animations India Pvt.Ltd"
+                    },
+                    {
+                        "__type": "layout.footer",
+                        "id": 12,
+                        "copyright": "Copyright © 2025, All Right Reserved Bhooshan Animations India Pvt.Ltd"
+                    }
+                ],
+                "isUrlSigned": true
+            }
+        }
+    },
+"meta":{}
+}

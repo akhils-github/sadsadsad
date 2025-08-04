@@ -1,9 +1,8 @@
 import axios from "axios";
 
-
 // Axios instances
 const baseConfig = {
-  baseURL: process.env.NEXT_PUBLIC_ADMIN_URL,
+  baseURL: process.env.NEXT_PUBLIC_BASE_URL,
 };
 
 export const basicRequest = axios.create(baseConfig);
@@ -16,5 +15,5 @@ export const basicXFormRequest = axios.create({
 
 // CONSTANTS
 
-export const RECAPTCHA_VERIFY = "verify-recaptcha/lael";
-export const CONTACT_FORM = "contact-forms";
+export const HOME_PAGE = "home-page";
+export const SEO = "global";

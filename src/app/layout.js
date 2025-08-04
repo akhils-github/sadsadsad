@@ -1,24 +1,27 @@
-import { Inter, Anton } from "next/font/google";
+import { Inter, Luckiest_Guy } from "next/font/google";
 import "./globals.css";
-import { Toaster } from "react-hot-toast";
-import ReCaptchaProvider from "@/provider/ReCaptchaProvider";
+// import LandscapeWarning from "@/components/layout/LandscapeWarning";
 
-// Load Inter as the primary font
+
 const inter = Inter({
   variable: "--font-primary",
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  display: 'swap'
+
 });
-// Load Anton as the secondary font
-const anton = Anton({
+const luckiestGuy = Luckiest_Guy({
   variable: "--font-secondary",
-  weight: "400", // Anton only has one weight, so specify it
   subsets: ["latin"],
+  weight: ["400"],
+  display: 'swap'
+
 });
 
 export const metadata = {
-  title: "LAEL DESIGNERS",
+  title: "Bhooshan's Junior | India's First Kids Tech-tainment Company",
   description:
-    "By the inspiration of our creator, LAEL DESIGNERS began functioning in this form from 2007 but had been in the construction, interior designing, and home remodeling field years before. Ever since our clients have been passing only good words about our excellent work and craftsmanship and dedication.",
+    "We are building India's first Kid’s Tech-Tainment Company! Our company is focused on revitalizing the kid’s entertainment segment by introducing Indian iconic animated characters",
 };
 
 export default function RootLayout({ children }) {
@@ -26,6 +29,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
+        
         {/* <!-- Favicon for most browsers --> */}
         <link rel="icon" href="/favicon/favicon.ico" />
         {/* <!-- Favicon for 16x16 (mostly used by older browsers) --> */}
@@ -63,20 +67,15 @@ export default function RootLayout({ children }) {
           href="/favicon/android-chrome-512x512.png"
         />
         {/* <!-- Manifest for PWA --> */}
-        <link rel="manifest" href="/favicon/site.webmanifest" />
+        {/* <link rel="manifest" href="/favicon/site.webmanifest" /> */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
 
       <body
-        className={`${inter.variable} ${anton.variable} font-sans antialiased`}
+        className={`${inter.variable} ${luckiestGuy.variable} font-sans antialiased`}
       >
-        <Toaster
-          style={{ zIndex: "999999999999999999" }}
-          toastOptions={{
-            duration: 1000,
-          }}
-        />
-        <ReCaptchaProvider>{children}</ReCaptchaProvider>
+        {/* <LandscapeWarning /> */}
+        {children}
       </body>
     </html>
   );
